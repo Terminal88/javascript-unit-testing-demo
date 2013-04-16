@@ -16,6 +16,7 @@ function App() {
 
 		response.done(function(){
 			var responseData = jQuery.parseJSON(response.responseText);
+			self.oneString = responseData.oneString;
 		});
 	};
 }

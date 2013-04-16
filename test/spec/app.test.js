@@ -49,8 +49,8 @@ describe('app.js', function () {
 				this.server.respond();
 			});
 			//console.log('data: ', this.App.data);
-			describe('oneString should be set', function () {
-			  it('oneString parity not blank', function(){
+			describe('Check updateData() result', function () {
+			  it('oneString is equal to "updated by server"', function(){
 			  	assert.equal(this.App.oneString, 'updated by server');
 			  });
 			  
